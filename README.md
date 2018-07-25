@@ -1,24 +1,26 @@
-# README
+<h1>The THP project name : MOOCademy</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+<h2> Configuration ruby & Rails</h2>
 
-* Ruby version
+Ruby version : 2.5.1
+<br>
+Rails version : 5.2.0
 
-* System dependencies
+<h2> Install </h2>
 
-* Configuration
+ - clone the repo
+ - bundle install
 
-* Database creation
 
-* Database initialization
+<h2> Tables </h2>
 
-* How to run the test suite
+|   users   |    cours    | lecons |
+|:---------:|:-----------:|:------:|
+|     ID    |      ID     |   ID   |
+| fist_name | description |  titre |
+| last_name |   **users_id**  |  body  |
+|   email   |  **lecons_id**  |        |
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+<h3>The focus of the project is to work with rails and how to create and manipulate the data base</h3>
